@@ -29,7 +29,9 @@ int main(int argc, char *argv[])
 		case '/':
 		     result=a/b;
 			 break;	 
-} 
+    default:
+    break;
+	} 
 		printf("= %i.\n", result);
 		
 		system("PAUSE");
